@@ -9,12 +9,12 @@ import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Primary
 @Profile(JHipsterConstants.SPRING_PROFILE_SWAGGER)
 @Configuration
-@EnableSwagger2WebFlux
+@EnableSwagger2
 public class SwaggerConfiguration {
 
     @Bean
